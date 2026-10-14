@@ -1,0 +1,33 @@
+{
+  "id": "ridebelt-f24-001",
+  "title": "Outline an ASTM F24 work-item proposal for RAS",
+  "project": "ridebelt",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "standards",
+    "safety"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. After the MVP gate, RAS should be proposed to ASTM F24 (subcommittee F24.24). F2291 already allows an independent secondary restraint for Class 5 (per secondary sources).",
+  "objective": "Draft an outline of the work-item proposal: rationale with incident evidence, scope, relation to F2291 and to open work items such as WK92171, and the proposed form (new standard or annex). Mark it 'to be submitted only after the MVP gate'.",
+  "acceptanceCriteria": [
+    "Uses only public information about ASTM processes; no copied standard text",
+    "Cites incident evidence from docs/research/incidents.md with verification status",
+    "Output CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/research/standards-map.md",
+    "docs/research/incidents.md",
+    "docs/business/licensing-model.md"
+  ],
+  "output": "docs/business/astm-f24-proposal-outline.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

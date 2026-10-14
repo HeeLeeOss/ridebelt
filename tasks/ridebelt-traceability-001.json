@@ -1,0 +1,36 @@
+{
+  "id": "ridebelt-traceability-001",
+  "title": "Automated traceability and consistency checker",
+  "project": "ridebelt",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "tooling"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. Requirements (REQ-*), hazards (H*), FMEA rows and tests (T-*, RAS-CT*) cross-reference each other by ID across markdown files. Manual edits have already caused drift.",
+  "objective": "Write a Python script (stdlib only) plus a GitHub Actions workflow that checks: every REQ appears in the test-plan traceability table; every test ID referenced exists; every hazard's Req/Test references exist; every FMEA row with S >= 9 lists a mitigation and a test; every safety doc carries the DRAFT banner unless a review/ record exists.",
+  "acceptanceCriteria": [
+    "Script exits non-zero with a clear report on any violation",
+    "Runs in CI on every PR",
+    "Current repo state passes, or each failure found is fixed in docs (as DRAFT) and listed in the PR",
+    "Code MIT"
+  ],
+  "resources": [
+    "docs/requirements.md",
+    "docs/testing/test-plan.md",
+    "docs/safety/",
+    "GOVERNANCE.md"
+  ],
+  "output": "tools/check_traceability.py and .github/workflows/checks.yml",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "selfVerifying": true
+}

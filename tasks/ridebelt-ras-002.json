@@ -1,0 +1,39 @@
+{
+  "id": "ridebelt-ras-002",
+  "title": "Draft RAS v0.2: resolve derivable TBDs, terms, full conformance procedures",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "safety",
+    "standards",
+    "engineering"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/standard/RAS-v0.1.md has many TBDs and short conformance tests. ASTM F24 will expect standard-style language, defined terms and repeatable procedures.",
+  "objective": "Write RAS v0.2 in standards style (scope, normative references by title only, terms, requirements with 'shall', conformance tests with apparatus, procedure, pass criteria, report). Resolve TBDs that follow from existing analysis, and keep a table of TBDs that need test data or reviewer input.",
+  "acceptanceCriteria": [
+    "No text copied from paid standards; references by number and title only",
+    "Each 'shall' maps to a conformance test or inspection",
+    "Design-arounds kept (wired or mechanical release only; sensor principle per ras-latch.md)",
+    "DRAFT banner intact; change log against v0.1",
+    "Output CC-BY-4.0",
+    "Merged as DRAFT only; release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)"
+  ],
+  "resources": [
+    "docs/standard/RAS-v0.1.md",
+    "docs/design/ras-latch.md",
+    "docs/requirements.md",
+    "docs/analysis/load-analysis.md"
+  ],
+  "output": "docs/standard/RAS-v0.2.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "expertReview": true
+}

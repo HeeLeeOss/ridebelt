@@ -1,0 +1,38 @@
+{
+  "id": "ridebelt-model-002",
+  "title": "Arrest model v2: 2-DOF (pelvis translation + torso rotation), lateral/forward cases, tests",
+  "project": "ridebelt",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "safety",
+    "engineering",
+    "simulation"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/analysis/arrest_model.py is 1-DOF vertical only. It cannot show jackknifing, rotation of the upper body out of a hip belt, or lateral and forward loads, which drive the Shoulder Module and center-strap requirements.",
+  "objective": "Add a 2-DOF (or planar multi-body) model: pelvis held by tethers plus torso pivoting at the hip, with lateral (Gy) and forward (Gx) pulse cases, measured pulses from data/accel/ when available, unit tests, and a results section in load-analysis.md.",
+  "acceptanceCriteria": [
+    "v1 results reproduced within 5% when the rotational DOF is locked (regression test)",
+    "Every assumption (segment masses and inertias, stiffnesses) cited or flagged ASSUMPTION",
+    "pytest suite passes; numpy/scipy/matplotlib only",
+    "Results written into docs/analysis/load-analysis.md as DRAFT, banner intact",
+    "Code MIT, text CC-BY-4.0",
+    "Merged as DRAFT only; release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)"
+  ],
+  "resources": [
+    "docs/analysis/arrest_model.py",
+    "docs/analysis/load-analysis.md",
+    "docs/research/ride-acceleration-data.md"
+  ],
+  "output": "docs/analysis/arrest_model_2dof.py, tests/, docs/analysis/load-analysis.md §2c",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "expertReview": true
+}
