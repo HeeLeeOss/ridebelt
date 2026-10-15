@@ -13,7 +13,7 @@
   "urgent": false,
   "deliverable": "document",
   "tokenEstimate": "small",
-  "status": "open",
+  "status": "done",
   "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. REQ-F1 requires coverage from 5th-percentile female to 99th-percentile male. The Integrated Harness needs both waist and torso sizing. Depends on: ridebelt-anthro-001 (do those first or use their outputs if merged). Risk tier high: requires credentialed expert review before release.",
   "objective": "Define a size chart (number of sizes, ranges, adjustment overlap) for the Hip Belt and Integrated Harness from anthro-001, and the fit-check method (REQ-F3).",
   "acceptanceCriteria": [
