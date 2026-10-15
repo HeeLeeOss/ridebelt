@@ -14,7 +14,7 @@
   "urgent": false,
   "deliverable": "document",
   "tokenEstimate": "medium",
-  "status": "open",
+  "status": "done",
   "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Sizing the Hip Belt and Integrated Harness needs hip breadth, hip/waist circumference, thigh circumference, torso length and body mass percentiles. Open sources include CDC NHANES anthropometric reference data and the US Army ANSUR II public dataset.",
   "objective": "Extract 1st–99th percentile values for the relevant dimensions (male and female adults) from open sources, with the dataset version and licence.",
   "acceptanceCriteria": [
