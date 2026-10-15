@@ -13,7 +13,7 @@
   "urgent": false,
   "deliverable": "document",
   "tokenEstimate": "small",
-  "status": "open",
+  "status": "done",
   "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Contributors need the project's rules in one place: DRAFT banners, risk tiers, citation rules, FTO design-arounds, DCO sign-off and AI-assistance disclosure.",
   "objective": "Write CONTRIBUTING.md summarising how to pick up tasks, project guardrails, citation style, PR checklist and review flow, linking to GOVERNANCE.md rather than duplicating it.",
   "acceptanceCriteria": [
