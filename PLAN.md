@@ -45,7 +45,7 @@ In scope: everything under [docs/](docs/). Out of scope for now: physical manufa
 | Load cases & arrest model | [docs/analysis/](docs/analysis/), [docs/research/ride-acceleration-data.md](docs/research/ride-acceleration-data.md) |
 | Test plan & traceability | [docs/testing/test-plan.md](docs/testing/test-plan.md) |
 
-Key numbers (preliminary): 140 kg design rider; −2.0 g ejection rating plus −1.0 g sustained; 6 kN design load per tether → 30 kN MBS; slack ≤ 2 cm; 4 kN energy absorber; tethers at 45–75°; release under a 2 kN load.
+Key numbers (preliminary): 160 kg design rider (about the civilian P99); −2.0 g ejection rating plus −1.0 g sustained; 6 kN design load per tether → 30 kN MBS; slack ≤ 2 cm; 4 kN energy absorber; tethers at 45–75°; release under a 2 kN load.
 
 ## Data, licensing & compliance
 - Content: CC BY 4.0 ([LICENSE](LICENSE)). Code: MIT ([LICENSE-CODE](LICENSE-CODE)). **No patents will be filed**, and publication serves as defensive publication ([docs/business/licensing-model.md](docs/business/licensing-model.md)).

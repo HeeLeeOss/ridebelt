@@ -151,7 +151,7 @@ Method: take the largest credible published or claimed −Gz for the class and r
 
 Envelope suggestion for the first prototype rating **[estimate]**: design to **−2.0 Gz** plus **−1.0 Gz sustained inverted**, ±2 g lateral, and 2 g forward. That covers every class above except +Gz submarining checks. It matches the 2 g placeholder in load-analysis.md, so no change is needed there yet.
 
-Example static load [derived]: m = 140 kg (see §5) × 2.0 g × 9.81 = **2.75 kN** total, shared by two tethers. Per REQ-L5 each tether alone must carry it.
+Example static load [derived]: m = 160 kg (see §5) × 2.0 g × 9.81 = **3.14 kN** total, shared by two tethers. Per REQ-L5 each tether alone must carry it.
 
 Open items before these numbers can be used:
 1. Buy F2291-26a and read the Section 6 −Gz, Gx and Gy envelopes and the restraint-class figure (Section 5). Replace the "highest found" column with the standard's limits: the ride itself is designed up to the standard's limit, not to published examples.
@@ -179,11 +179,11 @@ CDC/NCHS, *Anthropometric Reference Data for Children and Adults: United States,
 - Many major parks use **restraint fit** rather than a posted weight (e.g., Universal's Forbidden Journey has no maximum weight; the restraint must close) ([AJC](https://www.ajc.com/travel/how-big-too-big-some-theme-park-riders-fear-the-walk-shame/YN7JDzapFtPgi4cRAdjIPJ/)). Signage is not required unless the manufacturer's manual says so ([Fox 35](https://fox35orlando.com/news/state-senator-looking-to-take-action-to-make-amusement-rides-more-safe)).
 - A forum post quotes the withdrawn F1159 as using a 170 lb adult design weight or 12 lb per inch of hip width, whichever is greater ([CoasterBuzz](https://coasterbuzz.com/Forums/PostLink/398020)). This is **unverified**.
 
-### 5.3 Recommendation (preliminary)
-- **Design rider mass m = 140 kg** for REQ-L2. This is the 95th percentile of the heaviest U.S. male age band (139.9 kg) and covers the all-ages 95th (130.3 kg) plus about 4 kg of clothing and harness **[estimate]**. It also exceeds the posted ride limits found (130–136 kg).
-- **Upper rated user mass on the label: 140 kg.** Riders above this are outside the rating, even if the ride admits them by restraint fit.
-- REQ-F1 asks for sizing to the 99th-percentile male. Sizing (girth) and mass rating are separate. If marketing wants the mass rating to reach about the 99th percentile, use **m = 160 kg [estimate]**, which raises loads by 14%.
-- This replaces the 136 kg placeholder in load-analysis.md §1, after engineer review.
+### 5.3 Recommendation (preliminary; updated 2026-10-15)
+- **Design rider mass m = 160 kg** for REQ-L2. This is about the US civilian 99th-percentile body mass from NHANES (P99 155.8 kg men and 146.6 kg women in 2021–2023; 159.2 kg and 155.9 kg in 2017–2020), from [anthropometry-adult.md](anthropometry-adult.md). It replaces the earlier 140 kg value (the 95th percentile of the heaviest US male age band, 139.9 kg), which the civilian data showed to be too low. 160 kg leaves little margin for clothing above the 2017–2020 male P99 **[estimate]**. It is well above the posted ride limits found (130–136 kg).
+- **Upper rated user mass on the label: 160 kg.** Riders above this are outside the rating, even if the ride admits them by restraint fit.
+- Sizing (girth) and mass rating are separate. REQ-F1 now asks for sizing to the 1st–99th percentile of **both** sexes, because the largest hips are female.
+- Effect on loads: the arrest model was re-run at 160 kg (load-analysis.md §2a–2b). The 6 kN design load and 30 kN MBS still hold with slack ≤ 2 cm and the 4 kN absorber.
 
 ## 6. Sources not yet obtained (to buy or request)
 - ASTM F2291-26a (Sections 5 and 6, Annex A1, Appendix X1).

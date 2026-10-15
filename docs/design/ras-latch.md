@@ -69,7 +69,7 @@ Two **independent** principles, so that any single fault is detected:
 
 ## 6. Load basis
 From the arrest model (A2, §2a–2b), with 60° tethers:
-- 140 kg design rider at a −2.0 g rating with slack ≤ 2 cm: ≤ 3.5 kN. A 160 kg rider: ≤ 4.0 kN. With 10 cm slack (misuse) and no absorber it can reach 7.7 kN, so the 4 kN absorber is required.
+- 160 kg design rider (about the civilian P99) at a −2.0 g rating with slack ≤ 2 cm: ≤ 4.0 kN. With 10 cm slack (misuse) and no absorber it can reach 7.7 kN, so the 4 kN absorber is required.
 - **Design load per tether: 6 kN** (preliminary; check against measured ride data). MBS ≥ **30 kN** (5:1). No permanent set at 12 kN (2×).
 - Center anchor (anchor mode): it does positioning only, but is rated the same, so one latch part number fits all anchor positions.
 

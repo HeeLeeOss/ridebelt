@@ -37,7 +37,7 @@ HERE = Path(__file__).parent
 
 @dataclass
 class Params:
-    m: float = 140.0          # kg, design rider mass (95th pct US male, heaviest age band; ride-acceleration-data.md)
+    m: float = 160.0          # kg, design rider mass (about the US civilian P99, NHANES; research/anthropometry-adult.md)
     A: float = 2.0            # g, peak net ejection acceleration (-Gz)
     T_p: float = 0.5          # s, pulse duration
     slack: float = 0.05       # m, free travel before the tethers take load
@@ -117,7 +117,7 @@ def angle_sweep() -> list[dict]:
     return rows
 
 
-def inverted_hang(m: float = 140.0) -> list[dict]:
+def inverted_hang(m: float = 160.0) -> list[dict]:
     """Static tether tension for a rider hanging inverted (-1 Gz), per tether."""
     return [{"theta_deg": th, "tension_per_tether_N": round(m * G / (2 * math.sin(math.radians(th))))}
             for th in (30, 45, 60, 75, 90)]
@@ -136,11 +136,11 @@ if __name__ == "__main__":
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
-    print("## Main sweep (theta = 60 deg, m = 140 kg)\n")
+    print("## Main sweep (theta = 60 deg, m = 160 kg)\n")
     print(md(rows))
     print("\n## Tether angle sweep (A = 2 g, T_p = 0.5 s, slack = 5 cm)\n")
     print(md(angle_sweep()))
-    print("\n## Inverted hang, static (m = 140 kg)\n")
+    print("\n## Inverted hang, static (m = 160 kg)\n")
     print(md(inverted_hang()))
 
     try:
@@ -157,7 +157,7 @@ if __name__ == "__main__":
         ax.plot(np.linspace(0.5, 3.0, 11), peaks, "k--", label="slack 10 cm, 4 kN absorber")
         ax.set_xlabel("Peak ejection acceleration, -Gz (g)")
         ax.set_ylabel("Peak tension per tether (kN)")
-        ax.set_title("RideBelt arrest model: 140 kg rider, 60° tethers, 0.5 s pulse")
+        ax.set_title("RideBelt arrest model: 160 kg rider, 60° tethers, 0.5 s pulse")
         ax.grid(alpha=0.3)
         ax.legend()
         fig.tight_layout()
