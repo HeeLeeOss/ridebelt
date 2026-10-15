@@ -83,3 +83,4 @@
 | REQ-T4 | T-E6 |
 | REQ-T5 | T-E7 |
 | REQ-F2, REQ-H3, REQ-H4, REQ-D4 | Labeling and inspection review |
+| REQ-H6 | Labeling review and the ride application guide (capsizable water rides excluded) |
