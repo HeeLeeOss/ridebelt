@@ -20,7 +20,7 @@ RideBelt is **safety-critical**. Mistakes could hurt people, so governance separ
 |---|---|---|
 | **low** | Recruitment plans, explainers, repo maintenance | Maintainer |
 | **medium** | Incident verification, acceleration datasets, patent searches, traceability tooling, standards mapping | Maintainer checks sources and citations |
-| **high** | Anything that sets numbers, geometry or procedures someone could rely on: requirements, RAS text, latch design, test methods, ops and rescue procedures, models | Maintainer merges as **DRAFT only**. **Release needs the MVP-gate Safety Engineer** (`expertReview: true`) |
+| **high** | Anything that sets numbers, geometry or procedures someone could rely on: requirements, RAS text, latch design, test methods, ops and rescue procedures, models | Maintainer merges as **DRAFT only**. **Release needs the MVP-gate Safety Engineer** |
 
 This applies the Hee-Lee Oss rule that safety work needs credentialed sign-off: for RideBelt, **release** is the step that needs it, and DRAFT merges are explicitly labeled "not for use".
 

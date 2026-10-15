@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-cad-002",
+  "title": "Parametric open CAD: RAS receiver envelope and interface",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "engineering",
+    "cad",
+    "open-hardware"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. The receiver's external envelope and tongue interface define what seat designers must accommodate. Depends on: ridebelt-cad-001 (do those first or use their outputs if merged). Risk tier high: requires credentialed expert review before release.",
+  "objective": "Model the receiver envelope, mounting pattern, drain slot, indicator window and tongue interface (internals simplified), using the same tool and parameters as cad-001.",
+  "acceptanceCriteria": [
+    "Mates with the cad-001 tongue in an assembly",
+    "Mounting pattern and envelope dimensioned",
+    "Marked DRAFT, not for manufacture",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/design/ras-latch.md"
+  ],
+  "output": "cad/receiver/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

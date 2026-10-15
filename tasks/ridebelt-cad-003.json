@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-cad-003",
+  "title": "Seat geometry and anchor-zone model (RAS-2 and RAS-3)",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "engineering",
+    "cad",
+    "standards"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/design/geometry/side_view.png is a 2D concept. Seat designers need the anchor zones and keep-out zones relative to the seat reference point in 3D. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Model a generic seat with the H-point, side anchor zones (45–75° tether window), RAS-3 center anchor zone and primary-restraint keep-out zone as parametric volumes.",
+  "acceptanceCriteria": [
+    "Parameters match RAS-v0.1 §3 and concepts.md",
+    "Exports plus a dimensioned drawing",
+    "Generic seat, no real manufacturer geometry",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/standard/RAS-v0.1.md",
+    "docs/design/geometry/concept_geometry.py"
+  ],
+  "output": "cad/seat-zones/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-inspection-001",
+  "title": "Gear inspection and retirement criteria",
+  "project": "ridebelt",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "maintenance"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. REQ-D3 requires retirement after any arrest event and a marked service life; rental fleets need inspection checklists. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Write inspection checklists (before each use, periodic, after an event) and retirement criteria for each product, using fall-protection inspection practice as a reference.",
+  "acceptanceCriteria": [
+    "Criteria cover webbing, stitching, hardware, absorber indicator, tag and labels",
+    "Sources cited for inspection practice",
+    "Retirement after any arrest event stated as absolute",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/requirements.md",
+    "docs/business/post-launch.md"
+  ],
+  "output": "docs/design/inspection-retirement.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

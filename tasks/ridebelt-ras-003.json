@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-ras-003",
+  "title": "RAS conformance test procedures (RAS-CT0 to RAS-CT7)",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "safety",
+    "standards",
+    "testing"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. RAS conformance tests are one-line entries. A test lab needs apparatus, procedure, pass criteria and report format. Depends on: ridebelt-ras-002 (do those first or use their outputs if merged). Risk tier high: requires credentialed expert review before release.",
+  "objective": "Write lab-ready procedures for RAS-CT0–RAS-CT7 (design review, static pull, connector orientation, fatigue, sensor, clearance, release under load, false latch).",
+  "acceptanceCriteria": [
+    "Each procedure has purpose, apparatus, specimen, steps, pass criteria and report template",
+    "Load values reference REQ IDs",
+    "Public standards cited by number and title only",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/standard/RAS-v0.1.md",
+    "docs/design/ras-latch.md"
+  ],
+  "output": "docs/standard/conformance/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,6 +1,6 @@
 {
   "id": "ridebelt-appguide-001",
-  "title": "Ride application-guide template",
+  "title": "Ride application-guide template with a fictional worked example",
   "project": "ridebelt",
   "type": "design-spec",
   "lane": "donated",
@@ -15,13 +15,13 @@
   "deliverable": "document",
   "tokenEstimate": "small",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. Each ride needs its own application guide: ride class, approved RAS anchors or wrap members, required modules, tether angle check, exclusions (e.g. capsizable water rides, H27).",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Each ride needs its own application guide: ride class, approved anchors or wrap members, required modules, tether-angle check and exclusions (e.g., capsizable water rides, H27). Risk tier high: requires credentialed expert review before release.",
   "objective": "Create a fill-in template plus one fully worked FICTIONAL example (a generic non-inverting coaster seat), clearly labelled fictional.",
   "acceptanceCriteria": [
-    "Template fields cover every REQ that is checked per ride",
-    "Worked example is fictional and says so; it names no real ride or manufacturer",
-    "DRAFT banner; output CC-BY-4.0",
-    "Merged as DRAFT only; release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)"
+    "Template fields cover every requirement checked per ride",
+    "Worked example is fictional and names no real ride or manufacturer",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "docs/design/concepts.md",
@@ -31,6 +31,5 @@
   "output": "docs/operations/application-guide-template.md",
   "requestor": "TO BE SECURED",
   "verifiedNeed": false,
-  "outputLicense": "CC-BY-4.0",
-  "expertReview": true
+  "outputLicense": "CC-BY-4.0"
 }

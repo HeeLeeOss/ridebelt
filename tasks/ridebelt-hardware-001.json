@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-hardware-001",
+  "title": "Market survey: rated connectors, key-release buckles and absorbers",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "engineering",
+    "procurement"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Prototypes need off-the-shelf parts: EN 362/ANSI Z359.12 snap hooks, key- or tool-release buckles (ride and transport industries), and tear-webbing energy absorbers near 4 kN.",
+  "objective": "Survey commercially available parts in each category with published ratings (MBS, gate strength, deployment force, standards), dimensions and maker datasheet links.",
+  "acceptanceCriteria": [
+    "At least 5 products per category with datasheet links",
+    "Ratings compared against REQ-L2 (30 kN) and the 4 kN absorber target",
+    "Notes any part that would conflict with FTO design-arounds (e.g., wireless locks)",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/design/ras-latch.md",
+    "docs/research/patentability-fto.md"
+  ],
+  "output": "docs/research/hardware-survey.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

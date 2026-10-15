@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-testmethods-004",
+  "title": "Test protocols: fit and operation (T-F1 to T-F9), post-MVP human trials",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "testing",
+    "ergonomics"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Fit and operation tests involve people wearing prototypes, which GOVERNANCE.md forbids before the MVP gate. Protocols can be written now for later use, and some steps can use mannequins. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Write protocols for T-F1–T-F9, separating steps possible now with mannequins/fixtures from human-participant steps that run only after the MVP gate under ethics approval.",
+  "acceptanceCriteria": [
+    "Every human-participant step is marked 'post-MVP gate, ethics approval required'",
+    "Mannequin/fixture alternatives given where possible",
+    "Pass criteria tied to REQ IDs",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/testing/test-plan.md",
+    "GOVERNANCE.md"
+  ],
+  "output": "docs/testing/procedures/fit-operation/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

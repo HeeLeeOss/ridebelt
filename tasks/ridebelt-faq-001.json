@@ -1,0 +1,33 @@
+{
+  "id": "ridebelt-faq-001",
+  "title": "FAQ for riders, parks and manufacturers",
+  "project": "ridebelt",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "public-communication"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Common questions (Can I use this now? Why not leg loops? Does it replace the lap bar? Water rides? Who certifies it?) need consistent answers.",
+  "objective": "Write an FAQ with 20–30 questions grouped by audience, every answer linking to the source document.",
+  "acceptanceCriteria": [
+    "First answer: it is not ready or approved for use",
+    "Every answer links to a repo document",
+    "No answer contradicts SAFETY-NOTICE.md",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "README.md",
+    "SAFETY-NOTICE.md",
+    "docs/design/concepts.md"
+  ],
+  "output": "docs/faq.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

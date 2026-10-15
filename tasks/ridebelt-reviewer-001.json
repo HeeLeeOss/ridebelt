@@ -14,14 +14,15 @@
   "deliverable": "document",
   "tokenEstimate": "small",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. The project cannot release anything without a named, credentialed Safety Engineer (GOVERNANCE.md role 2). Recruitment is the critical path.",
-  "objective": "Produce a recruitment plan: candidate pools (ASTM F24 members, NAARSO/AIMS-affiliated engineers, occupant-restraint and fall-protection engineering firms, university ride-engineering programs), selection criteria, an outreach message template, and an independence and conflict-of-interest checklist.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Nothing can be released without a named, credentialed Safety Engineer (GOVERNANCE.md role 2). Recruitment is the critical path.",
+  "objective": "Produce a recruitment plan: candidate pools (ASTM F24 members, NAARSO/AIMS-affiliated engineers, occupant-restraint and fall-protection engineering firms, university ride-engineering programs), selection criteria, an outreach template, and a conflict-of-interest checklist.",
   "acceptanceCriteria": [
-    "Lists at least 6 candidate pools or organisations, each with a public URL and why it fits",
-    "Includes an outreach template stating scope, time estimate, independence requirements and that the project is unpaid/open (or how compensation could work)",
-    "Includes a conflict-of-interest checklist matching GOVERNANCE.md",
-    "Names no private individuals; organisations and public roles only",
-    "Output CC-BY-4.0"
+    "At least 6 candidate pools or organisations, each with a public URL and why it fits",
+    "Outreach template states scope, time estimate, independence requirements and that the project is open/unpaid (or how compensation could work)",
+    "Conflict-of-interest checklist matches GOVERNANCE.md",
+    "Names organisations and public roles only, never private individuals",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "GOVERNANCE.md",

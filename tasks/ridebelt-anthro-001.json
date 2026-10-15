@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-anthro-001",
+  "title": "Adult anthropometry basis for belt and harness sizing",
+  "project": "ridebelt",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "engineering",
+    "ergonomics",
+    "open-data"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Sizing the Hip Belt and Integrated Harness needs hip breadth, hip/waist circumference, thigh circumference, torso length and body mass percentiles. Open sources include CDC NHANES anthropometric reference data and the US Army ANSUR II public dataset.",
+  "objective": "Extract 1st–99th percentile values for the relevant dimensions (male and female adults) from open sources, with the dataset version and licence.",
+  "acceptanceCriteria": [
+    "Only openly licensed or public-domain sources; each value cites table/variable",
+    "Covers hip and waist circumference, hip breadth seated, thigh circumference, torso length (or best proxy), body mass",
+    "Notes known population biases (e.g., military sample)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/requirements.md",
+    "docs/research/ride-acceleration-data.md"
+  ],
+  "output": "docs/research/anthropometry-adult.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

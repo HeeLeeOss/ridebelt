@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-regulatory-001",
+  "title": "Jurisdiction map: rules on amusement rides and rider-supplied equipment",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "legal-research",
+    "safety",
+    "standards"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Whether parks may allow rider-supplied restraint equipment depends on jurisdiction: US states adopt ASTM F24 differently; the EU, UK, Canada, Japan and Australia have their own regimes.",
+  "objective": "Map, per jurisdiction (all US states with ride programs, plus EU, UK, Canada provinces, Japan, Australia), the regulator, which ride standards are adopted, and any public rule on rider-supplied equipment or ride modifications.",
+  "acceptanceCriteria": [
+    "Each row cites the statute, regulation or regulator page",
+    "States 'not found' rather than guessing",
+    "Clear note that this is not legal advice",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/research/standards-map.md"
+  ],
+  "output": "docs/research/jurisdiction-map.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

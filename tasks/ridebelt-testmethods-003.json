@@ -1,0 +1,36 @@
+{
+  "id": "ridebelt-testmethods-003",
+  "title": "Test protocols: dynamic drop and sled tests (T-D1 to T-D5)",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "safety",
+    "testing",
+    "biomechanics"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Dynamic tests decide the ride rating matrix. They need ATD selection, pulse definitions, instrumentation and matrices. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Write test protocols for T-D1–T-D5: rig descriptions, ATD choice and instrumentation (e.g., THOR abdomen), pulse definitions per ride class, test matrix (including Integrated Harness and center-strap modes), data processing and pass criteria.",
+  "acceptanceCriteria": [
+    "Test matrix covers every configuration named in the test plan",
+    "Pulses reference ride-acceleration-data.md cases",
+    "Data channels and filtering specified",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/testing/test-plan.md",
+    "docs/research/ride-acceleration-data.md",
+    "docs/analysis/load-analysis.md"
+  ],
+  "output": "docs/testing/procedures/dynamic/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

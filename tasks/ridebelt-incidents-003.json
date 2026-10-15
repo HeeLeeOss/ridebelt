@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-incidents-003",
+  "title": "Verify non-US incident entries against primary sources",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "research",
+    "public-data"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Non-US entries (UK, Germany, Sweden, Japan, Brazil, Mexico, Canada, Saudi Arabia, Honduras) rely mostly on press. Regulators such as UK HSE, Sweden SHK, Japan MLIT and Technical Safety BC publish reports. Depends on: ridebelt-incidents-002 (do those first or use their outputs if merged).",
+  "objective": "Upgrade non-US entries to 'Verified (primary)' where official reports exist online (translations allowed, with the original linked), and correct conflicting facts.",
+  "acceptanceCriteria": [
+    "Each upgraded entry links the primary document (original language) and states how it was translated",
+    "No upgrade without a primary source; corrections noted",
+    "Remaining entries list the holding agency",
+    "Tally updated",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/research/incidents.md"
+  ],
+  "output": "docs/research/incidents.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

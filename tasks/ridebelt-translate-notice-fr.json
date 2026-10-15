@@ -1,0 +1,33 @@
+{
+  "id": "ridebelt-translate-notice-fr",
+  "title": "Translate the Safety Notice into French",
+  "project": "ridebelt",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "translation",
+    "safety"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. The Safety Notice is the most important page for non-English visitors: it says the designs are DRAFT and must not be built, worn or attached to rides.",
+  "objective": "Translate SAFETY-NOTICE.md into French, keeping meaning exact and the tone firm.",
+  "acceptanceCriteria": [
+    "Meaning matches the English exactly; nothing softened",
+    "Links still work",
+    "Translator notes any terms with no direct equivalent",
+    "Marked as needing native-speaker review before merge",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "SAFETY-NOTICE.md"
+  ],
+  "output": "translations/fr/SAFETY-NOTICE.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

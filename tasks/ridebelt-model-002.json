@@ -1,6 +1,6 @@
 {
   "id": "ridebelt-model-002",
-  "title": "Arrest model v2: 2-DOF (pelvis translation + torso rotation), lateral/forward cases, tests",
+  "title": "Arrest model v2: 2-DOF pelvis translation + torso rotation",
   "project": "ridebelt",
   "type": "code",
   "lane": "donated",
@@ -15,24 +15,22 @@
   "deliverable": "pr",
   "tokenEstimate": "large",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/analysis/arrest_model.py is 1-DOF vertical only. It cannot show jackknifing, rotation of the upper body out of a hip belt, or lateral and forward loads, which drive the Shoulder Module and center-strap requirements.",
-  "objective": "Add a 2-DOF (or planar multi-body) model: pelvis held by tethers plus torso pivoting at the hip, with lateral (Gy) and forward (Gx) pulse cases, measured pulses from data/accel/ when available, unit tests, and a results section in load-analysis.md.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/analysis/arrest_model.py is 1-DOF vertical only. It cannot show jackknifing or the upper body rotating out of a hip belt, which drives the shoulder requirements. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Add a planar 2-DOF model (pelvis held by tethers, torso pivoting at the hip, optional shoulder-strap restraint) with unit tests and a results section.",
   "acceptanceCriteria": [
-    "v1 results reproduced within 5% when the rotational DOF is locked (regression test)",
-    "Every assumption (segment masses and inertias, stiffnesses) cited or flagged ASSUMPTION",
+    "v1 results reproduced within 5% when rotation is locked (regression test)",
+    "Every assumption (segment masses, inertias, stiffnesses) cited or flagged ASSUMPTION",
     "pytest suite passes; numpy/scipy/matplotlib only",
-    "Results written into docs/analysis/load-analysis.md as DRAFT, banner intact",
-    "Code MIT, text CC-BY-4.0",
-    "Merged as DRAFT only; release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)"
+    "Results added to load-analysis.md as DRAFT",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed MIT"
   ],
   "resources": [
     "docs/analysis/arrest_model.py",
-    "docs/analysis/load-analysis.md",
-    "docs/research/ride-acceleration-data.md"
+    "docs/analysis/load-analysis.md"
   ],
-  "output": "docs/analysis/arrest_model_2dof.py, tests/, docs/analysis/load-analysis.md §2c",
+  "output": "docs/analysis/arrest_model_2dof.py, tests/, load-analysis.md §2c",
   "requestor": "TO BE SECURED",
   "verifiedNeed": false,
-  "outputLicense": "MIT",
-  "expertReview": true
+  "outputLicense": "MIT"
 }

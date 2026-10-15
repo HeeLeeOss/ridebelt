@@ -1,6 +1,6 @@
 {
   "id": "ridebelt-incidents-002",
-  "title": "Verify incident entries against primary sources",
+  "title": "Verify US incident entries against primary sources",
   "project": "ridebelt",
   "type": "research",
   "lane": "donated",
@@ -15,14 +15,15 @@
   "deliverable": "document",
   "tokenEstimate": "medium",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/research/incidents.md lists 26 incidents; only 3 are 'Verified (primary)'. The rest rely on press coverage of official findings.",
-  "objective": "Upgrade as many entries as possible to 'Verified (primary)' by locating the regulator or official reports (state agencies, Japan MLIT, Sweden SHK, UK HSE, Technical Safety BC, court records), and list the public-records requests needed for the rest.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. docs/research/incidents.md lists 26 incidents; few are 'Verified (primary)'. US state agencies (FL FDACS, CA DOSH, NY DOL, OH Dept. of Agriculture, CO, ME, WI, PA) publish or release reports.",
+  "objective": "Upgrade US entries to 'Verified (primary)' where a regulator, court or official report can be found online, correct any facts that conflict, and list what remains.",
   "acceptanceCriteria": [
     "Each upgraded entry links the primary document",
-    "No entry is upgraded without a primary source; facts that conflict with the primary source are corrected and the correction noted",
-    "A table of outstanding public-records/FOIA requests (agency, what to request, how)",
-    "Victims are not named; tally section updated",
-    "Output CC-BY-4.0"
+    "No upgrade without a primary source; corrections noted in the entry",
+    "Table of remaining US entries with the agency that holds the record",
+    "Tally section updated",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "docs/research/incidents.md"

@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-biomech-002",
+  "title": "Literature review: inverted and suspended-occupant tolerance",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "biomechanics",
+    "research"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. REQ-H5 covers riders held upside down when a ride stops. Literature on suspension trauma (harness hang), inverted vehicle occupants and ride stoppages gives tolerance data.",
+  "objective": "Summarise what is known about tolerance to prolonged inverted or suspended restraint (time limits, symptoms, risk factors, rescue priorities), with sources.",
+  "acceptanceCriteria": [
+    "At least 8 sources cited",
+    "Distinguishes upright harness suspension from inverted seated restraint",
+    "Ends with candidate inputs for REQ-H5, labelled for engineer review",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/requirements.md",
+    "docs/safety/hazard-analysis.md"
+  ],
+  "output": "docs/research/inverted-suspension-tolerance.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

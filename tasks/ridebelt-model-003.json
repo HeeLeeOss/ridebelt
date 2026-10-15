@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-model-003",
+  "title": "Arrest model: lateral and forward load cases",
+  "project": "ridebelt",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "engineering",
+    "simulation"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Design cases include ±2 g lateral and 2 g forward (ride-acceleration-data.md), but the model only handles vertical ejection. Depends on: ridebelt-model-002 (do those first or use their outputs if merged). Risk tier high: requires credentialed expert review before release.",
+  "objective": "Extend the model to lateral (Gy) and forward (Gx) pulses with tether geometry in 3D, reporting per-tether tension and belt excursion.",
+  "acceptanceCriteria": [
+    "Tether geometry documented with a diagram",
+    "Unit tests for force resolution",
+    "Results table added to load-analysis.md as DRAFT",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed MIT"
+  ],
+  "resources": [
+    "docs/analysis/arrest_model.py",
+    "docs/research/ride-acceleration-data.md"
+  ],
+  "output": "docs/analysis/ + tests/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

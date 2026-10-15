@@ -1,0 +1,33 @@
+{
+  "id": "ridebelt-foia-001",
+  "title": "Public-records request templates for ride incident reports",
+  "project": "ridebelt",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "research",
+    "public-data",
+    "civic"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Many incident reports sit with state agencies and can be requested under public-records laws.",
+  "objective": "Write reusable public-records request templates (US federal FOIA style and a generic US state version), plus a table of the state agencies named in incidents.md with each one's public-records portal URL.",
+  "acceptanceCriteria": [
+    "Templates are generic and name no individuals",
+    "Each agency row has a working official URL",
+    "Explains what to request (inspection, investigation, engineering reports) and typical exemptions",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/research/incidents.md"
+  ],
+  "output": "docs/research/public-records-requests.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

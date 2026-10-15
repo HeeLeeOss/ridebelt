@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-incidents-004",
+  "title": "Extend the incident review with 2015–2026 ejection and fall cases",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "safety",
+    "research"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. The review has 26 cases and was compiled by searching for ejections specifically. More recent cases (e.g., from the Woodcock monthly ride-incident recaps and national regulators) would strengthen the failure-mode tally. Depends on: ridebelt-incidents-002 (do those first or use their outputs if merged).",
+  "objective": "Add 10–20 further rider ejection or fall-from-ride incidents from 2015–2026, classified with the existing failure-mode codes and RideBelt-applicability reasoning.",
+  "acceptanceCriteria": [
+    "Uses the existing table columns and status labels",
+    "No duplicates of existing entries",
+    "Classification reasoning is conservative (structural/trajectory cases = No)",
+    "Tally and 'what it means' sections updated",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/research/incidents.md"
+  ],
+  "output": "docs/research/incidents.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

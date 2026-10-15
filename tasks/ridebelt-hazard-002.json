@@ -1,0 +1,35 @@
+{
+  "id": "ridebelt-hazard-002",
+  "title": "Hazard analysis and FMEA update for the Integrated Harness and recent findings",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "safety",
+    "engineering"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. New design elements (Integrated Harness, self-retracting tethers, 4 kN absorber, water-ride exclusion) have been added since the hazard analysis and FMEA were written. Risk tier high: requires credentialed expert review before release.",
+  "objective": "Review hazard-analysis.md and fmea.md against the current design and add or update rows (e.g., Integrated Harness interference with OTSRs, reel lock-up failure, absorber mis-deployment, sizing errors).",
+  "acceptanceCriteria": [
+    "Every new design element in concepts.md has at least one hazard and FMEA row",
+    "Each row maps to REQ and test IDs that exist",
+    "Traceability checker (if present) passes",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/safety/hazard-analysis.md",
+    "docs/safety/fmea.md",
+    "docs/design/concepts.md"
+  ],
+  "output": "docs/safety/",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

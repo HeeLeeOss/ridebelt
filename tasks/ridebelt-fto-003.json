@@ -14,13 +14,14 @@
   "deliverable": "document",
   "tokenEstimate": "medium",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. The project is open and files no patents, but builders must respect active third-party patents. Rounds 1–2 did not query CN/JP/KR databases directly or search by applicant (Gerstlauer, Intamin, Maurer, Zierer, Vekoma, Mack, Universal family members).",
-  "objective": "Extend docs/research/patentability-fto.md with an FTO-only round 3 and track the pending CN/JP/KR/CA counterparts of US 11,975,679.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. The project files no patents, but builders must respect active third-party patents. Rounds 1–2 did not query CN/JP/KR databases directly or search by applicant.",
+  "objective": "Extend docs/research/patentability-fto.md with an FTO-only round 3 and track pending CN/JP/KR/CA counterparts of US 11,975,679.",
   "acceptanceCriteria": [
     "Only real, verifiable patent numbers with links",
     "Each finding states which RideBelt feature it touches and any design-around",
     "States clearly that it is not a legal opinion",
-    "Output CC-BY-4.0"
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "docs/research/patentability-fto.md"

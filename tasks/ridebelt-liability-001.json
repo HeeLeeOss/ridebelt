@@ -1,0 +1,34 @@
+{
+  "id": "ridebelt-liability-001",
+  "title": "Research: liability considerations for publishing open safety designs",
+  "project": "ridebelt",
+  "type": "research",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "legal-research",
+    "governance"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Publishing safety-equipment designs openly raises product-liability questions; counsel review is an open item in PLAN.md.",
+  "objective": "Summarise public sources on liability for open-hardware and open-standard publishers (disclaimers, warnings, case law commentary, how standards bodies and open-hardware projects handle it) to brief counsel.",
+  "acceptanceCriteria": [
+    "Sources cited",
+    "Clear note that this is not legal advice",
+    "Ends with questions for counsel",
+    "Every factual claim has a cited, working source link; estimates are labelled as estimates",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "SAFETY-NOTICE.md",
+    "docs/business/licensing-model.md"
+  ],
+  "output": "docs/business/liability-briefing.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

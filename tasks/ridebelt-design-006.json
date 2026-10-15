@@ -1,0 +1,36 @@
+{
+  "id": "ridebelt-design-006",
+  "title": "Universal Wrap Strap spec and approved-member rules",
+  "project": "ridebelt",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "engineering",
+    "design",
+    "safety"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. The Wrap Strap is the fallback for rides without RAS anchors, and the highest FMEA risk is wrapping the wrong member (RPN 350). Risk tier high: requires credentialed expert review before release.",
+  "objective": "Specify the sling (length, choke geometry, sleeve, member diameter range) and write the approved-member rules for application guides (structural members only, never the primary restraint).",
+  "acceptanceCriteria": [
+    "Rules make 'never the primary restraint' explicit with examples",
+    "Member diameter range justified",
+    "Snap hook and 4 kN absorber requirement included",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
+  ],
+  "resources": [
+    "docs/design/concepts.md",
+    "docs/design/ras-latch.md",
+    "docs/safety/fmea.md"
+  ],
+  "output": "docs/design/wrap-strap-spec.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

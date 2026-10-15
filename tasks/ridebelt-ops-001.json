@@ -1,6 +1,6 @@
 {
   "id": "ridebelt-ops-001",
-  "title": "Draft operator procedures and rescue/evacuation guide",
+  "title": "Draft operator procedures (pre-dispatch checks and refusal criteria)",
   "project": "ridebelt",
   "type": "writing",
   "lane": "donated",
@@ -14,24 +14,22 @@
   "deliverable": "document",
   "tokenEstimate": "medium",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. RAS adds steps for operators: checking clipped-in status, module requirements per ride class, release under load, and rescue from an inverted stop (REQ-O1, O3, O6, O7, H23).",
-  "objective": "Draft an operator procedure (pre-dispatch checks, indicator reading, refusal criteria) and a rescue guide (inverted stop, release order center then sides, rider support before release, cut-point backup), clearly marked as a DRAFT template for a ride's own procedures.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. RAS adds operator steps: checking clipped-in status, module requirements per ride class and indicator reading (REQ-O1, O4, H28). Risk tier high: requires credentialed expert review before release.",
+  "objective": "Draft an operator procedure template: primary-restraint checks first (unchanged), then RideBelt checks, indicator reading, refusal criteria and record-keeping.",
   "acceptanceCriteria": [
     "States that primary-restraint checks are unchanged and come first",
     "Every step traces to a REQ or hazard ID",
-    "No instruction implies RideBelt can be used today; DRAFT banner",
-    "Output CC-BY-4.0",
-    "Merged as DRAFT only; release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)"
+    "Nothing implies RideBelt can be used today",
+    "Merged as DRAFT only (banner intact); release requires MVP-gate Safety Engineer sign-off (GOVERNANCE.md)",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "docs/requirements.md",
     "docs/safety/hazard-analysis.md",
-    "docs/design/ras-latch.md",
-    "docs/standard/RAS-v0.1.md"
+    "docs/design/ras-latch.md"
   ],
-  "output": "docs/operations/operator-procedures.md and docs/operations/rescue-guide.md",
+  "output": "docs/operations/operator-procedures.md",
   "requestor": "TO BE SECURED",
   "verifiedNeed": false,
-  "outputLicense": "CC-BY-4.0",
-  "expertReview": true
+  "outputLicense": "CC-BY-4.0"
 }

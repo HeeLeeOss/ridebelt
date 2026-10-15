@@ -15,20 +15,19 @@
   "deliverable": "dataset",
   "tokenEstimate": "medium",
   "status": "open",
-  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards, and respect the patent design-arounds in docs/research/patentability-fto.md. Design load cases (docs/research/ride-acceleration-data.md) rest on a few published figures. Openly licensed measured traces (papers' supplementary data, physics-education datasets, open smartphone recordings) would let the arrest model use real pulses.",
-  "objective": "Collect openly licensed, measured ride acceleration time series, normalise them to a common CSV schema (time s, ax, ay, az in g, ride-frame axes documented) and write a datasheet for each.",
+  "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Design load cases rest on a few published figures. Openly licensed measured traces (papers' supplementary data, physics-education datasets, open smartphone recordings) would let the arrest model use real pulses.",
+  "objective": "Collect openly licensed, measured ride acceleration time series, normalise them to a common CSV schema (time s; ax, ay, az in g; ride-frame axes documented) and write a datasheet for each.",
   "acceptanceCriteria": [
-    "Only data whose licence allows redistribution is included; licence and source recorded per file",
-    "CSV schema documented; each file has a datasheet (ride type, sensor, sample rate, mounting, axes, known issues)",
-    "A summary table of peak -Gz per dataset with pulse duration",
-    "No data copied from paid standards",
-    "Data CC-BY-4.0 (or the source's compatible licence), any scripts MIT"
+    "Only data whose licence allows redistribution; licence and source recorded per file",
+    "Schema documented; datasheet per file (ride type, sensor, sample rate, mounting, axes, known issues)",
+    "Summary table of peak -Gz and pulse duration per dataset",
+    "Output licensed CC-BY-4.0"
   ],
   "resources": [
     "docs/research/ride-acceleration-data.md",
     "docs/analysis/arrest_model.py"
   ],
-  "output": "data/accel/ (CSV + datasheets) and docs/research/ride-acceleration-data.md summary",
+  "output": "data/accel/ (CSV + datasheets)",
   "requestor": "TO BE SECURED",
   "verifiedNeed": false,
   "outputLicense": "CC-BY-4.0"
