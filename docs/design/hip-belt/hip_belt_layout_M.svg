@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="640" viewBox="0 0 1250 640" font-family="sans-serif" font-size="13">
+<defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="28" font-size="17" font-weight="bold">RideBelt Hip Belt, size M: flat layout (DRAFT, NOT FOR USE, NOT FOR MANUFACTURE)</text>
+<text x="20" y="48" fill="#555">Unrolled from rear centre; drawn at mid-adjustment (fit girth 124 cm). Scale 6 px = 1 cm. All values DRAFT; see hip-belt-spec.md.</text>
+<rect x="379.0" y="150.0" width="492.0" height="60.0" rx="10" fill="#cfe0f5" stroke="#2b6cb0" stroke-width="2"/>
+<rect x="316.0" y="165.0" width="618.0" height="30.0" fill="none" stroke="#1a202c" stroke-width="2" stroke-dasharray="6 3"/>
+<rect x="304.0" y="157.0" width="24" height="46.0" fill="#a0aec0" stroke="#1a202c"/>
+<text x="276.0" y="235.0">buckle (male)</text>
+<rect x="922.0" y="157.0" width="24" height="46.0" fill="#a0aec0" stroke="#1a202c"/>
+<text x="894.0" y="235.0">buckle (female)</text>
+<rect x="337.5" y="159.0" width="20" height="42.0" fill="#fbd38d" stroke="#975a16"/>
+<text x="289.5" y="102.0" fill="#975a16">adjuster + range window</text>
+<rect x="892.5" y="159.0" width="20" height="42.0" fill="#fbd38d" stroke="#975a16"/>
+<text x="844.5" y="102.0" fill="#975a16">adjuster + range window</text>
+<circle cx="439.0" cy="210.0" r="11" fill="#38a169" stroke="#1c4532" stroke-width="2"/>
+<text x="379.0" y="242.0" fill="#1c4532">side ring L (tether, sewn)</text>
+<polygon points="379.5,146.0 371.5,132.0 387.5,132.0" fill="#e53e3e"/>
+<text x="327.5" y="126.0" fill="#c53030">position marker (REQ-F4)</text>
+<circle cx="811.0" cy="210.0" r="11" fill="#38a169" stroke="#1c4532" stroke-width="2"/>
+<text x="751.0" y="242.0" fill="#1c4532">side ring R (tether, sewn)</text>
+<polygon points="870.5,146.0 862.5,132.0 878.5,132.0" fill="#e53e3e"/>
+<text x="818.5" y="126.0" fill="#c53030">position marker (REQ-F4)</text>
+<rect x="611.0" y="204.0" width="28" height="22" fill="#dd6b20" stroke="#7b341e"/>
+<text x="555.0" y="262.0" fill="#7b341e">rear receiver (centre strap, W mode)</text>
+<line x1="379.0" y1="305.0" x2="871.0" y2="305.0" stroke="#000" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="565.0" y="299.0">fixed padded section 82 cm (rear + sides)</text>
+<line x1="439.0" y1="340.0" x2="625.0" y2="340.0" stroke="#000" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="472.0" y="334.0">31.0 cm</text>
+<line x1="625.0" y1="340.0" x2="811.0" y2="340.0" stroke="#000" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="658.0" y="334.0">31.0 cm</text>
+<line x1="316.0" y1="375.0" x2="934.0" y2="375.0" stroke="#000" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="565.0" y="369.0">total loop 114–134 cm (adjustable)</text>
+<line x1="979.0" y1="150.0" x2="979.0" y2="210.0" stroke="#000" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="985.0" y="184.0">pad width 100 mm</text>
+<text x="985.0" y="202.0">webbing 50 mm · thickness ≤ 12 mm</text>
+<text x="20.0" y="470.0" font-weight="bold">Side view at side ring: tether direction window (REQ-L7)</text>
+<circle cx="170" cy="500" r="10" fill="#38a169"/>
+<line x1="170" y1="500" x2="85.1" y2="584.9" stroke="#2f855a" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="51.1" y="598.9" fill="#2f855a">45°</text>
+<line x1="170" y1="500" x2="138.9" y2="615.9" stroke="#2f855a" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="104.9" y="629.9" fill="#2f855a">75°</text>
+<line x1="20" y1="500" x2="250" y2="500" stroke="#999"/>
+<text x="190" y="494" fill="#555">horizontal (forward →)</text>
+<text x="290" y="550" fill="#555">Tether leaves the ring down and rearward, 45–75° below horizontal.</text>
+</svg>
