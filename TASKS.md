@@ -11,7 +11,7 @@ Each task is a Task JSON in [tasks/](tasks/). It uses the same fields as other H
 - Every task's context repeats the project guardrails: keep DRAFT banners, give no wear-it-today instructions, copy no paid-standard text, and respect the patent design-arounds.
 
 ## Agent tasks
-64 open tasks: M0 foundation and evidence (23), M1 draft design package (28), M3-prep communication, adoption and translations (13). By risk tier: low 5, medium 32, high 27 (high = merged as DRAFT only; release needs the MVP-gate Safety Engineer).
+65 tasks: M0 foundation and evidence (24), M1 draft design package (28), M3-prep communication, adoption and translations (13). By risk tier: low 5, medium 32, high 28 (high = merged as DRAFT only; release needs the MVP-gate Safety Engineer).
 
 | Milestone | ID | Title | Type | Size | Risk | Deliverable | Depends on |
 |---|---|---|---|---|---|---|---|
@@ -38,6 +38,7 @@ Each task is a Task JSON in [tasks/](tasks/). It uses the same fields as other H
 | M0 | ridebelt-docs-001 | Glossary of RideBelt terms | writing | small | low | document | — |
 | M0 | ridebelt-docs-002 | CONTRIBUTING guide for RideBelt | writing | small | low | document | — |
 | M0 | ridebelt-requirements-002 | TBD register: every open value with data source and owner | writing | small | medium | document | — |
+| M0 | ridebelt-requirements-003 | Raise the design rider mass toward 160 kg (REQ-L2) and size to the 99th percentile of both sexes (REQ-F1) | design-spec | medium | high | pr | anthro-001 (merged) |
 | M1 | ridebelt-hazard-002 | Hazard analysis and FMEA update for the Integrated Harness and recent findings | design-spec | medium | high | document | — |
 | M1 | ridebelt-model-002 | Arrest model v2: 2-DOF pelvis translation + torso rotation | code | large | high | pr | — |
 | M1 | ridebelt-model-003 | Arrest model: lateral and forward load cases | code | medium | high | pr | model-002 |
