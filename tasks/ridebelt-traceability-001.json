@@ -13,7 +13,7 @@
   "urgent": false,
   "deliverable": "pr",
   "tokenEstimate": "small",
-  "status": "open",
+  "status": "done",
   "context": "RideBelt is an open, safety-critical Hee-Lee Oss project: an optional rider-worn backup restraint (low hip belt + short tethers; optional clip-on Shoulder Module or one-piece Integrated Harness) that latches into an open seat anchor standard (RAS). ALL safety content is DRAFT and not for use until a credentialed engineer signs off at the MVP gate (GOVERNANCE.md). Never remove a DRAFT banner, never give instructions for wearing or attaching anything to a ride, never copy text from paid standards (cite by number and title only), never name private individuals or incident victims, and respect the patent design-arounds in docs/research/patentability-fto.md. Requirements (REQ-*), hazards (H*), FMEA rows and tests (T-*, RAS-CT*) cross-reference each other by ID across markdown files. Manual edits have already caused drift.",
   "objective": "Write a stdlib-only Python checker plus a GitHub Actions workflow verifying: every REQ appears in the test-plan traceability table; every referenced test ID exists; hazard Req/Test references exist; FMEA rows with S >= 9 list a mitigation and a test; every safety doc carries the DRAFT banner unless a review/ record exists.",
   "acceptanceCriteria": [
