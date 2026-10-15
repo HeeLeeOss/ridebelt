@@ -12,7 +12,7 @@ A [Hee-Lee Oss](https://github.com/HeeLeeOss) good-deed project. Content is [CC 
 Riders have been killed or badly hurt when a ride's primary restraint (lap bar, over-the-shoulder harness or seat belt) failed, was out of adjustment, or didn't fit the rider. Once the primary restraint has failed, the rider has nothing else holding them in.
 
 ## The idea
-1. **RideBelt wearables.** A rider puts on a low hip belt with short, auto-locking tethers, and adds clip-on shoulder or crotch-strap modules for higher-risk rides.
+1. **RideBelt wearables.** A rider puts on a low hip belt with short, auto-locking tethers, and adds clip-on shoulder or crotch-strap modules for higher-risk rides. A one-piece **Integrated Harness** version has the belt and shoulder straps sewn together, so there's nothing to clip on or forget.
 2. **RideBelt Anchor Standard (RAS).** A standardized, rated anchor point that ride manufacturers design into seat structures. It is an **open standard**, free to implement. The aim is to contribute it to ASTM F24.
 3. **Universal Wrap Strap.** On legacy rides without an RAS anchor, a rated webbing loop wraps a structural member of the seat, so the rider can clip in.
 
@@ -31,7 +31,8 @@ If the ride's restraint fails, the tethers keep the rider attached to the seat s
 | Module | Rides |
 |---|---|
 | RideBelt Hip Belt (primary) | All rides |
-| + Shoulder Module | Required on inverting rides |
+| + Shoulder Module (clip-on) | Required on inverting rides (this or the Integrated Harness) |
+| RideBelt Integrated Harness | Hip Belt with built-in, non-removable shoulder straps. Meets the shoulder requirement on every ride; suited to rental fleets, younger riders, and inverting rides and drop towers |
 | + Convertible Center Strap | One strap, two modes. **Anchor mode** clips it short to an RAS-3 seat center anchor (a 3-point tie-down, with nothing between the legs). **Wearable mode** uses it as a crotch strap on seats with no center anchor. One mode is required on drop towers and dangling-leg seats, and anchor mode is recommended everywhere |
 | Tether Kit | All |
 | Universal Wrap Strap | Legacy rides without RAS anchors |

@@ -15,7 +15,7 @@ Riders keep dying or being badly hurt when an amusement ride's restraint fails, 
 ## Goals and non-goals
 **Goals**
 1. An open, reviewed **RAS anchor standard**: placement, strength, latch interface, release under load, clipped-in sensing, and conformance tests.
-2. An open **wearable design**: Hip Belt, Shoulder Module, Convertible Center Strap, self-retracting tethers, Wrap Strap.
+2. An open **wearable design**: Hip Belt, clip-on Shoulder Module, one-piece Integrated Harness (belt and shoulders sewn together), Convertible Center Strap, self-retracting tethers, Wrap Strap.
 3. Open **analysis and test methods**: arrest model, load cases, bench and dynamic test procedures.
 4. Pass the **MVP review gate**, then propose RAS to **ASTM F24**.
 

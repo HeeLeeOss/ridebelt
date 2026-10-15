@@ -16,12 +16,15 @@ Two things make this work:
 | Module | Description | Required for |
 |---|---|---|
 | **RideBelt Hip Belt** (core, primary SKU) | Wide (≥ TBD mm), semi-rigid, padded belt worn low on the pelvis. Two short side tethers to low anchors. Fit guide shows the correct position | Every ride |
-| **Shoulder Module** | Two shoulder straps that clip to the Hip Belt; a sternum strap keeps them on the shoulders. Not part of the main load path | **Mandatory** on inverting rides. Keeps the upper body from folding out, and gives support if the ride stops with riders upside down |
+| **Shoulder Module** (clip-on) | Two shoulder straps that clip to the Hip Belt; a sternum strap keeps them on the shoulders. Not part of the main load path | Shoulder protection for riders who also ride lower-energy rides and want to remove it. Required on inverting rides (this module or the Integrated Harness). Keeps the upper body from folding out, and gives support if the ride stops with riders upside down |
+| **RideBelt Integrated Harness** (one piece) | Hip Belt and shoulder straps **permanently sewn together**, with nothing to clip on or remove. Same hip-belt load path and side tethers as the Hip Belt; the shoulder straps and sternum strap are built in. Fit is adjusted by waist and shoulder-strap length buckles | Meets the shoulder requirement on **every** ride class with nothing to forget. Preferred for riders who mainly ride inverting coasters and drop towers, for park rental fleets, and for younger riders |
 | **Convertible Center Strap** (anti-submarine module) | One strap fixed to the belt's front buckle, with **two modes**: **Anchor mode (3-Point Tie-Down):** short, clipped down to an RAS-3 center anchor on the seat pan, with nothing worn between the legs. **Wearable mode (crotch strap):** full length, passed between the legs and clipped to the belt's rear ring, racing-harness style. See the design rules below | Anchor mode on RAS-3 seats (preferred). Wearable mode on seats without a center anchor. One of the two is **required** on drop towers and dangling-leg seats |
 | **Tether Kit** | Two independent side tethers, each 15–30 cm and adjustable. A permanent captive-pin or sewn connection at the belt end. **RAS latch tongue** at the anchor end, plus a **self-locking double-action snap hook** for wrap-strap rides (see trade study D). Inline energy absorber | Every ride |
 | **Universal Wrap Strap** | Rated sling with sleeve, choke-wrapped around an approved seat-frame member | Legacy rides without RAS anchors |
 
 ## Ride rating matrix (pending dynamic testing, T-D2)
+"+ Shoulder" means either the clip-on Shoulder Module or the one-piece Integrated Harness.
+
 | Ride class | Hip Belt | + Shoulder | Convertible Center Strap |
 |---|---|---|---|
 | Flat rides, swings, sky swings | ✔ | — | Anchor mode recommended where available |
@@ -74,6 +77,26 @@ The tag-based check (REQ-T3) lets an RAS anchor or an operator's reader confirm 
 | **Weighted total** | | **47** | **59** | **80** |
 
 → **Low hip belt with modules.** A waist-position belt is ruled out entirely.
+
+### A2. Clip-on Shoulder Module vs. Integrated Harness
+| Criterion | Clip-on Shoulder Module | Integrated Harness |
+|---|---|---|
+| Can the rider forget or misfit the shoulder part? | Yes: a missing module is FMEA RPN 144 (H12), so it relies on labels, the operator check and the tag check | **No.** It is always present, so that failure mode is gone |
+| Don and check time | Slower: extra clips, and the operator checks module fitment | Faster: one garment, one check |
+| Flexibility | Remove it for flat rides and swings | Shoulder straps always worn; possibly warmer and bulkier on low-energy rides |
+| Restraint interference (REQ-O4, H6) | Only when fitted | Always present under over-the-shoulder restraints and lap bars. **Every ride class needs the T-F5 interference check** |
+| Sizing | Belt sizes plus one strap size range | Belt and torso length together: more sizes, or wider adjustment |
+| Durability and inspection | Separate parts, inspected separately | One assembly; damage to the shoulder straps retires the whole unit |
+| Rental fleets | More loose parts to manage | Simpler: one part per rider |
+
+→ **Offer both.** The Integrated Harness is preferred for rental fleets, younger riders, and riders who mostly ride inverting rides or drop towers. The clip-on module suits riders who mix ride types.
+
+**Design rules for the Integrated Harness**
+- The shoulder straps are **not** the main load path. Ejection loads still go hip belt → side tethers. The arrest-model results and the 30 kN tether and anchor ratings apply unchanged.
+- The sewn joints between belt and shoulder straps are rated to the Shoulder Module's own load case (inverted hang, upper-body restraint). They are tested in T-S1 and T-D2/T-D4 like the clip-on version.
+- **Strappy construction, not a vest.** Torso fit comes from shoulder-strap length buckles. Do **not** use a vest panel with a height adjuster that moves the shoulder bands relative to the waist portion, and never add leg flaps or leg loops. This stays clear of Universal's US 11,975,679 claim 1 / EP 4 380 708 (vest + height adjuster + leg flaps) and the vest-shackle architecture of US 9,162,089. See [research/patentability-fto.md](../research/patentability-fto.md).
+- The neck-zone rule (REQ-H1) applies: the sternum strap and shoulder straps must stay clear of the neck at every size.
+- Its tag (REQ-T3) registers the unit as "Hip Belt + Shoulder", so the module check passes automatically on inverting rides.
 
 ### B. Shoulder-only harness: rejected as a standalone product
 - When anchored low, the rider can slide down and forward out from under the straps (submarining).

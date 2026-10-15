@@ -37,7 +37,7 @@ The shell attaches to the core through defined attachment zones (sleeve-over pad
 A sealed passive UHF RFID or NFC tag is built into the core. It is required because it **serves safety first**:
 - **Authenticity:** RAS anchors and operator handhelds can reject counterfeit gear (FMEA H9).
 - **Life tracking:** the gear's serial number links to its manufacture date, inspection history and any arrest event. Expired or retired gear is flagged at the ride entrance (REQ-D3).
-- **Module check:** the anchor or an operator reader can confirm the modules the ride requires are fitted, e.g., the Shoulder Module on an inverting ride (REQ-H4). Modules carry their own tags.
+- **Module check:** the anchor or an operator reader can confirm the modules the ride requires are fitted, e.g., the Shoulder Module on an inverting ride (REQ-H4). Modules carry their own tags. An Integrated Harness registers as "Hip Belt + Shoulder" in a single tag.
 - **Clipped-in confirmation:** RAS latch-mode anchors with readers confirm *which* certified unit is clipped into *which* seat. This strengthens the optional interlock (RAS §5.3).
 
 The tag holds **only a random ID**. Personal data stays server-side, linked only if the rider opts in.
