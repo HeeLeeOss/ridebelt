@@ -9,7 +9,7 @@ Every requirement is numbered and testable. "TBD" values are set during Phase 1 
 | ID | Requirement | Verification |
 |---|---|---|
 | REQ-L1 | The system shall retain a rider through the worst sustained acceleration in the ASTM F2291 envelope for the ride class it is rated for, in every axis (±Gx, ±Gy, +Gz, and −Gz, i.e., ejection) | T-D1, T-D2 |
-| REQ-L2 | Minimum breaking strength of every load-path component ≥ 5 × design peak load. **Preliminary design load: 6 kN per tether → MBS ≥ 30 kN.** Basis: 140 kg design rider (160 kg checked), −2.0 g ejection rating, slack ≤ 2 cm, and a **required** per-tether energy absorber capping tension at 4 kN (load-analysis §2a–2b). Confirm against the F2291-26a limits and measured ride data | T-S1, T-S2 |
+| REQ-L2 | Minimum breaking strength of every load-path component ≥ 5 × design peak load. **Preliminary design load: 6 kN per tether → MBS ≥ 30 kN.** Basis: **160 kg design rider**, about the US civilian 99th-percentile body mass (NHANES P99 155.8–159.2 kg men, 146.6–155.9 kg women; [research/anthropometry-adult.md](research/anthropometry-adult.md)), −2.0 g ejection rating, slack ≤ 2 cm, and a **required** per-tether energy absorber capping tension at 4 kN (load-analysis §2a–2b). Confirm against the F2291-26a limits and measured ride data | T-S1, T-S2 |
 | REQ-L3 | Peak force transmitted to the rider during arrest shall stay below injury thresholds (pelvis, lumbar, abdomen; plus shoulder and thorax with the Shoulder Module or Integrated Harness). Thresholds TBD from ATD criteria | T-D2 |
 | REQ-L6 | Under every rated load case, the Hip Belt shall stay on the pelvis. Belt migration above the pelvic bones onto the abdomen ≤ TBD mm, measured on an ATD | T-D2, T-D3 |
 | REQ-L7 | Tether anchor angle shall load the belt down and rearward (TBD 45–75° from horizontal). The RAS anchor position and wrap-strap application guides shall enforce this | T-D3, RAS-CT0 |
@@ -21,7 +21,7 @@ Every requirement is numbered and testable. "TBD" values are set during Phase 1 
 ## Rider fit
 | ID | Requirement | Verification |
 |---|---|---|
-| REQ-F1 | Harness sizes shall cover 5th-percentile female to 99th-percentile male torso and thigh girth (sizes TBD) | T-F2 |
+| REQ-F1 | Belt and harness sizes shall fit the **1st to 99th percentile of both sexes** for hip and waist girth, thigh girth and torso length. Sizing basis: NHANES civilian girths (hip circumference P1–P99 about 84–156 cm; the largest hips are female) and ANSUR II for seated, thigh and torso dimensions. **ANSUR II upper percentiles are lower bounds**, because the military sample under-represents large bodies ([research/anthropometry-adult.md](research/anthropometry-adult.md)). Sizes TBD (`ridebelt-sizing-001`) | T-F2 |
 | REQ-F2 | Minimum rider height and mass for the Hip Belt and for each module: TBD. No use below the ride's own minimum | Labeling review |
 | REQ-F4 | The Hip Belt shall have a built-in position guide (e.g., contoured shape and a visual marker at the pelvic bones), so the wearer and operator can confirm low positioning in < 5 s | T-F3 |
 | REQ-F3 | A fit check (gap gauge or "two-finger" rule) shall be possible in < 10 s | T-F3 |
